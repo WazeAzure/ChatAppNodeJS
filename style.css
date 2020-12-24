@@ -1,0 +1,45 @@
+form{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background: grey;
+	padding: 20px;
+}
+#nama_user {
+	float: left;
+	width: 20%;
+	height: 30px;
+	border: none;
+	margin-right: 10px;
+}
+#text_box {
+	float: left;
+	width: 40%;
+	height: 30px;
+	border: none;
+}
+button {
+	float: left;
+	width: 20%;
+	height: 33px;
+}
+#messages li:nth-child(even) {
+	background-color: cyan;
+	list-style: none;
+}
+.overflow {
+	overflow: scroll;
+	height: 550px;
+	width: 100%;
+}
+.hidden {
+	display: none;
+}
+#leftBox {
+	float: left;
+	width: 30%;
+}
+#rightBox {
+	width: 70%;
+	float: right;
+}
